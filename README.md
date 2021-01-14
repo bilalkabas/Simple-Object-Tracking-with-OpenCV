@@ -1,7 +1,7 @@
 # Simple Object Tracking with OpenCV
 [![license](https://img.shields.io/badge/license-MIT-%23F65314?style=flat-square)](LICENSE)
 
-This repository contains a simple object tracking implementation in Python using OpenCV library. This algorithm was implemented in a UAV to detect an area and descent on it.
+This repository contains a simple object tracking implementation in Python using OpenCV library. This algorithm was implemented in a UAV to detect an area and descent on it. The deviation of the center of the object from the center of the frame is first calculated in pixels. Then, it is converted to centimeters using a linear regression model previously implemented.
 
 ## Getting Started
 If you meet the prerequisites, then you can directly run the Python code.
